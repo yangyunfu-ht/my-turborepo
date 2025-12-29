@@ -1,0 +1,5 @@
+{
+  "extends": "@repo/typeScript-config/app.json",
+  "compilerOptions": { "jsx": "react-jsx" }, // Vue 设为 "preserve"
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+}
